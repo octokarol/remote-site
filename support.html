@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Remote — Support</title>
+        <style>
+            :root {
+                color-scheme: light dark;
+                --bg: #ffffff;
+                --fg: #1c1c1e;
+                --muted: #6b6b70;
+                --accent: #0a84ff;
+                --border: #e5e5ea;
+            }
+            @media (prefers-color-scheme: dark) {
+                :root {
+                    --bg: #000000;
+                    --fg: #f2f2f7;
+                    --muted: #8e8e93;
+                    --accent: #0a84ff;
+                    --border: #2c2c2e;
+                }
+            }
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                margin: 0;
+                font-family:
+                    -apple-system, BlinkMacSystemFont, "SF Pro Text",
+                    "Segoe UI", Roboto, sans-serif;
+                background: var(--bg);
+                color: var(--fg);
+                line-height: 1.6;
+                -webkit-font-smoothing: antialiased;
+            }
+            main {
+                max-width: 720px;
+                margin: 0 auto;
+                padding: 48px 24px 96px;
+            }
+            header {
+                margin-bottom: 32px;
+                padding-bottom: 24px;
+                border-bottom: 1px solid var(--border);
+            }
+            h1 {
+                font-size: 2rem;
+                margin: 0 0 8px;
+                letter-spacing: -0.02em;
+            }
+            .subtitle {
+                color: var(--muted);
+                margin: 0;
+                font-size: 0.95rem;
+            }
+            h2 {
+                font-size: 1.2rem;
+                margin: 36px 0 12px;
+                letter-spacing: -0.01em;
+            }
+            p,
+            ul {
+                margin: 0 0 16px;
+            }
+            ul {
+                padding-left: 22px;
+            }
+            li {
+                margin-bottom: 6px;
+            }
+            a {
+                color: var(--accent);
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            footer {
+                margin-top: 64px;
+                padding-top: 24px;
+                border-top: 1px solid var(--border);
+                color: var(--muted);
+                font-size: 0.875rem;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>Support</h1>
+                <p class="subtitle">Remote for iOS</p>
+            </header>
+
+            <p>
+                If you have any questions, feedback, or need help with Remote,
+                feel free to reach out at
+                <a href="mailto:karolpoczta@windowslive.com">karolpoczta@windowslive.com</a>.
+                We'll do our best to get back to you as soon as possible.
+                It helps to mention your TV's brand and model.
+            </p>
+
+            <h2>Can't find your TV?</h2>
+            <ul>
+                <li>Make sure your iPhone and TV are on the same Wi-Fi network.</li>
+                <li>
+                    Allow Local Network access for Remote in the Settings app
+                    under Privacy &amp; Security.
+                </li>
+                <li>
+                    Turn the TV on. You can also add it manually with its IP
+                    address, which you'll find in the TV's network settings.
+                </li>
+            </ul>
+
+            <h2>Connecting for the first time</h2>
+            <p>
+                Most TVs show a prompt to allow the remote, or a code to type
+                into the app. Remote's TV Guide, in the app's Settings, lists
+                what each TV system supports.
+            </p>
+
+            <footer>&copy; 2026 Remote</footer>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Remote — Privacy Policy</title>
+        <style>
+            :root {
+                color-scheme: light dark;
+                --bg: #ffffff;
+                --fg: #1c1c1e;
+                --muted: #6b6b70;
+                --accent: #0a84ff;
+                --border: #e5e5ea;
+            }
+            @media (prefers-color-scheme: dark) {
+                :root {
+                    --bg: #000000;
+                    --fg: #f2f2f7;
+                    --muted: #8e8e93;
+                    --accent: #0a84ff;
+                    --border: #2c2c2e;
+                }
+            }
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                margin: 0;
+                font-family:
+                    -apple-system, BlinkMacSystemFont, "SF Pro Text",
+                    "Segoe UI", Roboto, sans-serif;
+                background: var(--bg);
+                color: var(--fg);
+                line-height: 1.6;
+                -webkit-font-smoothing: antialiased;
+            }
+            main {
+                max-width: 720px;
+                margin: 0 auto;
+                padding: 48px 24px 96px;
+            }
+            header {
+                margin-bottom: 32px;
+                padding-bottom: 24px;
+                border-bottom: 1px solid var(--border);
+            }
+            h1 {
+                font-size: 2rem;
+                margin: 0 0 8px;
+                letter-spacing: -0.02em;
+            }
+            .subtitle {
+                color: var(--muted);
+                margin: 0;
+                font-size: 0.95rem;
+            }
+            h2 {
+                font-size: 1.2rem;
+                margin: 36px 0 12px;
+                letter-spacing: -0.01em;
+            }
+            p,
+            ul {
+                margin: 0 0 16px;
+            }
+            ul {
+                padding-left: 22px;
+            }
+            li {
+                margin-bottom: 6px;
+            }
+            a {
+                color: var(--accent);
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            strong {
+                font-weight: 600;
+            }
+            footer {
+                margin-top: 64px;
+                padding-top: 24px;
+                border-top: 1px solid var(--border);
+                color: var(--muted);
+                font-size: 0.875rem;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>Privacy Policy</h1>
+                <p class="subtitle">
+                    Remote for iOS · Last updated October 11, 2026
+                </p>
+            </header>
+
+            <p>
+                This policy explains what the app does and doesn't do with your
+                data. The short version:
+                <strong
+                    >Remote does not collect, store, or transmit any personal
+                    data to the developer or any third party.</strong
+                >
+            </p>
+
+            <h2>Local Network Access</h2>
+            <p>
+                Remote asks for access to your local network so it can find TVs
+                on your Wi-Fi and control them. Button presses and text you type
+                go <strong>directly from your iPhone to your TV</strong> over
+                your home network. They never pass through a server operated by
+                the developer or anyone else, and typed text is not saved.
+            </p>
+            <p>
+                Your TV may keep its own records of connected devices or
+                commands it receives. That is handled by your TV's manufacturer
+                under their own privacy policy.
+            </p>
+
+            <h2>Data Stored On Your Device</h2>
+            <p>
+                Remote saves a small amount of information on your device so it
+                can reconnect to your TVs:
+            </p>
+            <ul>
+                <li>The TVs you've added: their name, IP address, and system</li>
+                <li>
+                    Pairing keys that your TV hands out when you allow the
+                    connection, so it doesn't ask again
+                </li>
+                <li>
+                    For Google TV and Android TV, a security certificate created
+                    on your device and kept in the iOS Keychain
+                </li>
+                <li>Your settings, such as haptic feedback</li>
+            </ul>
+            <p>
+                This information never leaves your device. You can remove a TV
+                and its pairing at any time in Settings, and everything is
+                deleted when you delete the app.
+            </p>
+
+            <h2>Analytics and Tracking</h2>
+            <p>
+                Remote contains
+                <strong>no analytics, no tracking, and no advertising</strong>.
+                No third-party SDKs are embedded in the app. The app does not
+                connect to any server operated by the developer.
+            </p>
+
+            <h2>Tip Jar (In-App Purchases)</h2>
+            <p>
+                Remote offers optional tips through Apple's In-App Purchase
+                system. If you choose to leave a tip, the purchase is processed
+                entirely by Apple. Remote receives only a confirmation that the
+                purchase succeeded — no payment details, name, email, or other
+                personal information is shared with the developer.
+            </p>
+            <p>
+                Apple's handling of purchase data is governed by
+                <a href="https://www.apple.com/legal/privacy/"
+                    >Apple's Privacy Policy</a
+                >.
+            </p>
+
+            <h2>Network Access</h2>
+            <p>
+                Apart from talking to TVs on your local network, Remote makes no
+                network requests except those made by Apple's StoreKit framework
+                when loading tip products and processing optional purchases.
+            </p>
+
+            <h2>Contact</h2>
+            <p>
+                Questions about this privacy policy? Reach out at
+                <a href="mailto:karolpoczta@windowslive.com">karolpoczta@windowslive.com</a
+                >.
+            </p>
+
+            <footer>&copy; 2026 Remote</footer>
+        </main>
+    </body>
+</html>
